@@ -168,3 +168,5 @@ if(BUILD_DOCS)
 
   add_custom_target(doc ${DOC_TARGET} DEPENDS ${DOC_DEPENDS})
 endif(BUILD_DOCS)
+
+add_subdirectory(books)
