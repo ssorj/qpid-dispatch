@@ -199,7 +199,7 @@ execute_process(COMMAND ${RUN} --sh OUTPUT_FILE config.sh)
 add_subdirectory(tests)
 add_subdirectory(python)
 add_subdirectory(router)
-add_subdirectory(doc)
+add_subdirectory(docs)
 add_subdirectory(console)
 
 # reconfigure.in is a workaround to force cmake re-configuration. For example,
